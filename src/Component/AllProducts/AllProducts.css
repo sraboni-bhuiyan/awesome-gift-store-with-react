@@ -5,11 +5,11 @@
 .products-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 45px;
-    margin: 100px 50px;
+    gap: 25px;
+    margin: 50px 50px;
 }
 .cart-container{
-    background-color: gray;
+    background-color: pink;
     right: 0;
     height: 100%;
 }
