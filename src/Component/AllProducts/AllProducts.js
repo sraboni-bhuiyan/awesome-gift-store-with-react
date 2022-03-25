@@ -9,7 +9,6 @@ const AllProducts = () => {
 
     const handleAddToCart = (product) =>{
         const newCart = [...cart, product];
-        console.log(newCart)
         setCart(newCart);
     }
     useEffect(() => {
