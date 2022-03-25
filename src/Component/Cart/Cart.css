@@ -1,0 +1,27 @@
+.cart-body h2{
+    text-align: center;
+    
+}
+.cart-info{
+    margin: 10px;
+}
+.cart-btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.chooseOne-btn, .chooseAgain-btn{
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+    height: 40px;
+    background-color: white;
+    border-radius: 5px;
+    border: none;
+}
+.chooseOne-btn:hover, .chooseAgain-btn:hover{
+    background-color: palevioletred;
+    color: white;
+}

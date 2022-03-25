@@ -10,7 +10,6 @@ function App() {
     <div>
       <Navbar></Navbar>
       <AllProducts></AllProducts>
-      
     </div>
   );
 }
