@@ -6,7 +6,7 @@
 .products-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 25px;
+    gap: 15px;
     margin: 50px 50px;
 }
 .cart-container{
@@ -16,6 +16,7 @@
 @media screen and (max-width:688px) {
     .products-container{
         grid-template-columns: repeat(1, 1fr);
+        margin: 10px 0px;
     }
 }
 @media screen and (min-width:688px) and (max-width:992px) {

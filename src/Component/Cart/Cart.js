@@ -22,15 +22,15 @@ const Cart = (props) => {
     //console.log(cart)
     return (
         <div className='cart-body'>
-            <h2>Selected Products</h2>
+            <h4>Selected Products</h4>
             <div className='cart-info'>
                 {cart.map( (item) => (
-                    <h4 key={item.id}>{item.name} - {item.price}</h4>
+                    <p key={item.id}>{item.name} - {item.price}</p>
                 ))}
             </div>
             <div className='cart-btn'>
-                <button onClick={() => chooseOne(cart)} className='chooseOne-btn'>CHOOSE 1 FOR ME</button>
-                <button onClick={() => chooseAgain(cart)} className='chooseAgain-btn'>CHOOSE AGAIN</button>
+                <button onClick={() => chooseOne(cart)} className='chooseOne-btn'>Choose Randomly</button>
+                <button onClick={() => chooseAgain(cart)} className='chooseAgain-btn'>Remove Items</button>
             </div>
             <div className='cart-info'>
                 <h4>Randomly Selected:</h4>

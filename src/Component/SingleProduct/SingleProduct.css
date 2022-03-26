@@ -1,15 +1,15 @@
 .item-card{
-    width: 300px;
+    width: 280px;
     height: 520px;
     border-radius: 5px;
     position: relative;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .image-container img{
-    width: 290px;
+    width: 265px;
     height: 320px;
     border-radius: 5px;
-    margin: 5px;
+    margin: 7px;
 }
 .item-info{
     padding: 0px 10px;
