@@ -25,7 +25,7 @@ const Cart = (props) => {
             <h4>Selected Products</h4>
             <div className='cart-info'>
                 {cart.map( (item) => (
-                    <p key={item.id}>{item.name} - {item.price}</p>
+                    <p key={item.id}>{item.name} - ${item.price}</p>
                 ))}
             </div>
             <div className='cart-btn'>
