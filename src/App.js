@@ -11,7 +11,6 @@ function App() {
     <div>
       <Navbar></Navbar>
       <AllProducts></AllProducts>
-      <QuesAnswer></QuesAnswer>
     </div>
   );
 }
